@@ -3,11 +3,12 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
->
+              android:id="@+id/heading" android:weightSum="1" android:background="#022238">
     <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
-    />
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="HexaPlaque"
+            android:id="@+id/textView" android:layout_gravity="center_horizontal"/>
 </LinearLayout>
 
